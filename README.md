@@ -1,5 +1,5 @@
-# Kullanım<br>
-python3.7 atak.py 192.168.1.7 80 4 100 4.txt <br>br>
+# Kullanım <br>
+python3.7 atak.py 192.168.1.7 80 4 100 4.txt <br><br>
 ip adresinden sonra 80 yazan yere portu yazıyorsunuz genelde 80 kullanılabilir.<br>
 80 den sonra gelen 4 parametresi socket 4 anlamına gelir. ( 5 te kullanılabilir )<br>
 100 yazan kısım saldırının şiddetini belirtir. 1000 yapabilirsiniz.<br>
